@@ -1,0 +1,47 @@
+h1{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+#container{
+    
+    margin-left: 0px;
+    
+}
+.blue-boxes{
+    border: solid 1.5px;
+    border-color: lightblue;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    justify-content: space-around;
+    justify-items: center;
+    position: absolute;
+
+}
+.purple-boxes{
+    border: solid 1.5px;
+    border-color: lightblue;
+    background: red;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    position: absolute;
+    top: 140px;
+}
+.blue-boxes li{
+    width: 20px;
+    height: 20px;
+    background: lightblue;
+    list-style: none; 
+    display: inline-flex;
+}
+.purple-boxes li{
+    width: 20px;
+    height: 20px;
+    background: purple;
+    list-style: none; 
+    display: inline-flex;
+}
