@@ -1,12 +1,17 @@
-.container {
-    width: 100px;
-    height: 800px;
-    
- }
-p{
-    width: auto;
-    height: auto;
-    border: solid  black 2px;
-    flex-wrap: wrap;
+.container p{
+    border: solid 1px black;
+    width: 270px;
+    margin: 0px;
+    padding: 20px;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif ;
 }
-
+#red{
+    background-color: red;
+    color: black;
+       
+}
+a:hover{
+    color: orange;
+    
+}
